@@ -79,14 +79,14 @@ p {
     background-color: rgba(160, 160, 160, 0.342);
     transform: translate(-0%,-3%);
 }
-/*.option:hover {
+.option:hover {
     background-color: rgba(255, 255, 255, 0.801);
     color: black;
 }
 .option:active {
     background-color: rgb(255, 255, 255);
 }
-*/
+
 #panicPopup {
     display: none;
     position: fixed;
@@ -197,4 +197,5 @@ button:disabled:hover {
     color: white; /* Optional: Set button text color */
     cursor: pointer; /* Optional: Add a pointer cursor on hover */
     background-color: rgba(51, 50, 50, 0.322);
+
   }
