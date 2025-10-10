@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
 // Function to handle button clicks and toggle between functions
- /*document.getElementById('cloak').addEventListener('click', function () {
+ document.getElementById('cloak').addEventListener('click', function () {
     // Check which function to call and then toggle
     if (this.getAttribute('data-current-function') === 'tabCloak') {
         disableTabCloak();
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         tabCloak();
         this.setAttribute('data-current-function', 'tabCloak');
     }
-});*/
+});
 // FOR PARTICLES, DISABLING PARTICLES IS ENABLING. THE BUTTONS ARE OPPISITE.
 var particlesEnabledButton = document.getElementById('enabledParticles');
 var particlesDisabledButton = document.getElementById('disabledParticles');
@@ -205,4 +205,5 @@ if (clickoffButtonCheck === 'disabled' || clickoffButtonCheck === '' || clickoff
 } else {
     disableccButton.disabled = false;
     enableccButton.disabled = true;
+
 }
