@@ -62,7 +62,7 @@ var gms = {
   'Time Shooter SWAT': { imageUrl: "/assets/img/time-shooter-3.webp", onClick: timeShooter3, height: 130 },
   // Sport Games
   'Retro Bowl': { imageUrl: "/assets/img/retro.webp", onClick: rBowl },
-    'Retro Bowl College': { imageUrl: "/assets/img/RBCollege.jpeg", onClick: RBCollege },
+    'Retro Bowl College': { imageUrl: "/assets/img/RBCollege.jpeg", onClick: rBowl },
   'Basket Random': { imageUrl: "/assets/img/basketrandom.webp", onClick: basketRandom, height: 130 },
   'BasketBros.io': { imageUrl: "/assets/img/basketbros.webp", onClick: basketBros },
   // Ball/Platformer Games
